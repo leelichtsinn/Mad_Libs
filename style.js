@@ -7,7 +7,7 @@ function madLibbing(noun, adj, person) {
   var person = document.getElementById("person").value;
 
   // create mad lib
-  var madLib = person + " eats " + adj + " " + noun;
+  var madLib = "Why would " + person + " ever eat " + adj + " " + noun + " at the beach.";
   
   createMadLib.innerText = madLib;
 }
